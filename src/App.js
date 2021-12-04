@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          ReactJS project for Evgen Batrak :)
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      
+        <img src={logo} className="App-logo" alt="logo" />
+        <ul>
+          <li>https://randomnerdtutorials.com/9-home-automation-open-source-platforms-for-your-projects/</li>
+        </ul>
+        
       </header>
     </div>
   );
